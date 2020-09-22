@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">NoWasteNoHunger</string>
+    <string name="access_token">pk.eyJ1IjoibmF3cmluIiwiYSI6ImNrZTRsaTJvNjB1ZmwydnA4eW1jYmdtaWgifQ.4KjlhnEUimO_cGTUhPvfuA</string>
+    <string name="how_to_donate">
+        Donate the leftovers at your house or restaurant by posting. Provide a location from where others can collect it. You will be sent an SMS if anyone is interested in collecting your leftover.\n\n\nSwipe Right
+    </string>
+    <string name="how_to_collect">
+        You can collect the leftover of others. While collecting, show the message that was sent from your messaging inbox.\n\n\n\nSwipe Left or Right
+    </string>
+    <string name="how_to_contact">
+        Need help or hava a complaint?\nCall our helpline or mail us.\n\n\n\nSwipe Left
+    </string>
+
+    <string-array name="weights">
+        <item>kg</item>
+        <item>gm</item>
+        <item>pieces</item>
+        <item>liters</item>
+    </string-array>
+
+    <string-array name="UserTypes">
+        <item>Restaurant</item>
+        <item>Individual</item>
+    </string-array>
+
+    <string-array name="CuisineTypes">
+        <item>American</item>
+        <item>Chinese</item>
+        <item>French</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Mexican</item>
+        <item>Sea Food</item>
+        <item>Soul Food</item>
+        <item>Spanish</item>
+    </string-array>
+
+</resources>

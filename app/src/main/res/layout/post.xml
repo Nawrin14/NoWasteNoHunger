@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="30dp"
+        android:elevation="0dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/post_row"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/post_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:text="Username"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/Contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/post_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Time"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Post"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/post_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Location"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="15dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/donatebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:textAllCaps="false"
+            android:text="Collect"
+            android:background="@drawable/customized_buttons"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/post_profile_image"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/profile_picture"
+        app:civ_border_color="#000000" />
+
+</androidx.cardview.widget.CardView>
