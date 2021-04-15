@@ -21,3 +21,7 @@ The targeted android version for this app is Android 5.1 (Lollipop) and above. T
 2.  Mapbox Android SDK: Mapbox Android SDK has been used in this app to select the location from the Map. The user will have to permit the app to access the device's location. The location information should also be enabled to select the location.
 
 3.  SMS Manager: This project uses the SMS Manager API to send message through the app. The user will have to permit the app to send an SMS from the device. 
+
+# Other Contributors
+1. Monjure Mowla Abir
+2. Kaji Fuad Bin Akhter
