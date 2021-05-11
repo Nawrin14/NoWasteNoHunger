@@ -23,5 +23,5 @@ The targeted android version for this app is Android 5.1 (Lollipop) and above. T
 3.  SMS Manager: This project uses the SMS Manager API to send message through the app. The user will have to permit the app to send an SMS from the device. 
 
 # Other Contributors
-1. Monjure Mowla Abir
-2. Kaji Fuad Bin Akhter
+1. [Monjure Mowla Abir](https://github.com/abir2727) <br>
+2. [Kaji Fuad Bin Akhter](https://github.com/FuadBinAkhter) <br>
